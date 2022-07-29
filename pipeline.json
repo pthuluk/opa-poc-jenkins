@@ -1,0 +1,21 @@
+{
+    //"app_name": "abx-react",
+    "app_type": "app",
+    "app_version": "2.0.1",
+    "build_type": "docker",
+    "notification_emails": [
+        "amy.l.han@kp.org",
+        "simon.wu@kp.org"
+    ],
+    "notification_slackchannel": [],
+    "stages": {
+        "buildNpm": {
+            "params": "",
+            "skip_unit_test": false
+        },
+        "sonarqubeScan": {
+            "sonar-coverage-exclusions": [],
+            "sonar-exclusions": []
+        }
+    }
+}
